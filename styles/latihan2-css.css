@@ -1,0 +1,48 @@
+span {
+  color: red;
+}
+
+.red {
+  color: red;
+}
+
+.skyblue-bg {
+  background-color: skyblue;
+}
+
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+}
+
+p.fancy {
+  text-shadow: 4px 4px 3px red;
+}
+
+#special {
+  background-color: skyblue;
+}
+
+ul {
+  font-size: 18px;
+}
+
+a[href] {
+  color: blue;
+}
+
+a[href^='#'] {
+  background-color: gold;
+}
+
+a[href*='example'] {
+  background-color: silver;
+}
+
+a[href*='insensitive' i] {
+  color: cyan;
+}
+
+a[href$='.org'] {
+  color: red;
+}
